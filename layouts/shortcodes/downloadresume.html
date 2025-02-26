@@ -1,0 +1,22 @@
+<script>
+  window.onload = function() {
+    // Create an invisible link and trigger click
+    var link = document.createElement('a');
+    link.href = '/resume_Lievrouw_David_Eng.pdf';
+    link.download = 'resume_Lievrouw_David_Eng.pdf';
+	link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Display a message to the user
+    document.getElementById('download-message').style.display = 'block';
+  }
+</script>
+
+<div class="resume-download-page">
+  <p id="download-message" style="display: none;">
+    Your download should start automatically. If it doesn't, 
+    <a href="/resume_Lievrouw_David_Eng.pdf" download="resume_Lievrouw_David_Eng.pdf">click here</a>.
+  </p>
+</div>
