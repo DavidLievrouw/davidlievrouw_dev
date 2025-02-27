@@ -90,7 +90,15 @@ enableEmoji = true
     post = ""
     # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
     typeit = false
-	
+
+# Analytics config
+[params.analytics]
+  enable = true
+  # Google Analytics
+  [params.analytics.google]
+    id = "G-ZWTCJVB9G0"
+    anonymizeIP = true
+
 [params.cookieconsent]
   enable = true
   position = "bottom-right"
