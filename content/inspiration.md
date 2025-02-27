@@ -6,21 +6,15 @@ title: "Inspiration"
 These are some famous, and less famous, quotes and proverbs that influenced me.
 
 {{< admonition quote >}}
-When you need to choose between "follow the shiny" and "follow the infrastructure", always follow the infrastructure.
-
-_Amy Webb 2022_
-{{< /admonition >}}
-
-{{< admonition quote >}}
 It's not the domain experts knowledge that goes into production, it's the assumptions of the developers that do.
 
 _Alberto Brandolini_
 {{< /admonition >}}
 
 {{< admonition quote >}}
-Do not argue with a fool. He will drag you down to his level and beat you with experience.
+You learn with your hands. You do not learn with your eyes.
 
-_Mark Twain_
+_Michael B. Paulson (ThePrimeagen) 2024_
 {{< /admonition >}}
 
 {{< admonition quote >}}
@@ -40,27 +34,9 @@ _Roman van Ree 2024_
 {{< /admonition >}}
 
 {{< admonition quote >}}
-When in development, it's AI; When it works, it's software.
+When you need to choose between "follow the shiny" and "follow the infrastructure", always follow the infrastructure.
 
-_Richard Campbell 2024_
-{{< /admonition >}}
-
-{{< admonition quote >}}
-You learn with your hands. You do not learn with your eyes.
-
-_Michael B. Paulson (ThePrimeagen) 2024_
-{{< /admonition >}}
-
-{{< admonition quote >}}
-Growth, for the sake of growth, is the ideology of a cancer cell.
-
-_Edward Abbey (1995)_
-{{< /admonition >}}
-
-{{< admonition quote >}}
-I want AI to do my laundry and dishes so that I can do art and writing. Not for AI to do my art and writing so that I can do my laundry and dishes.
-
-_Joanna Maciejewska 2024_
+_Amy Webb 2022_
 {{< /admonition >}}
 
 {{< admonition quote >}}
@@ -73,6 +49,30 @@ _Joel Spolsky 2001_
 If you want performance, stop doing so much.
 
 _Netflix pre-2020_
+{{< /admonition >}}
+
+{{< admonition quote >}}
+When in development, it's AI; When it works, it's software.
+
+_Richard Campbell 2024_
+{{< /admonition >}}
+
+{{< admonition quote >}}
+If you automate a mess, you get an automated mess.
+
+_Rod Michael_
+{{< /admonition >}}
+
+{{< admonition quote >}}
+Growth, for the sake of growth, is the ideology of a cancer cell.
+
+_Edward Abbey (1995)_
+{{< /admonition >}}
+
+{{< admonition quote >}}
+I want AI to do my laundry and dishes so that I can do art and writing. Not for AI to do my art and writing so that I can do my laundry and dishes.
+
+_Joanna Maciejewska 2024_
 {{< /admonition >}}
 
 {{< admonition quote >}}
@@ -121,10 +121,4 @@ _Eddard Stark (Game of Thrones)_
 If builders built houses the way programmers build software, the first woodpecker to come along would destroy civilization.
 
 _Gerald Weinberg_
-{{< /admonition >}}
-
-{{< admonition quote >}}
-If you automate a mess, you get an automated mess.
-
-_Rod Michael_
 {{< /admonition >}}
