@@ -96,15 +96,18 @@ enableEmoji = true
   enable = true
   # Google Analytics
   [params.analytics.google]
-    id = "G-ZWTCJVB9G0"
-	anonymizeIP = true
+	  id = "G-ZWTCJVB9G0"
+	  anonymizeIP = true
 
 [params.cookieconsent]
   enable = true
   position = "bottom-right"
   [params.cookieconsent.palette]
     [params.cookieconsent.palette.popup]
-    background = "#666666"
+      background = "#666666"
+    [params.cookieconsent.palette.button]
+      text = "#555555"
+      background = "powderblue"
   [params.cookieconsent.content]
     message = "This website uses cookies for analytics purposes"
     href = "/cookies/"
