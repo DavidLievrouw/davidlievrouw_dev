@@ -91,6 +91,16 @@ enableEmoji = true
     # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
     typeit = false
 	
+[params.cookieconsent]
+  enable = true
+  position = "bottom-right"
+  [params.cookieconsent.palette]
+    [params.cookieconsent.palette.popup]
+    background = "#666666"
+  [params.cookieconsent.content]
+    message = "This website uses cookies for analytics purposes"
+    href = "/cookies/"
+
 [params.footer]
    enable = true
    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
