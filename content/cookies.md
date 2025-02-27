@@ -3,11 +3,7 @@ draft: false
 title: "Cookies"
 ---
 
-{{< raw >}}
-<div style="text-align: center;">
-  <img src="/cookies.png" alt="Cookies" style="height:150px;"/>
-</div>
-{{< /raw >}}
+{{< figure src="/cookies.png" alt="Cookies" class="content-feature-image" >}}
 
 This site uses cookies for analytics purposes.
 

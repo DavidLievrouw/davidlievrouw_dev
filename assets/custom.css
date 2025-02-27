@@ -1,0 +1,4 @@
+.single .content figure.content-feature-image img {
+    width: auto;
+    max-width: 200px;
+}

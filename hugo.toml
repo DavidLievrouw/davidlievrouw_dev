@@ -97,7 +97,7 @@ enableEmoji = true
   # Google Analytics
   [params.analytics.google]
     id = "G-ZWTCJVB9G0"
-    anonymizeIP = true
+	anonymizeIP = true
 
 [params.cookieconsent]
   enable = true
@@ -322,6 +322,9 @@ enableEmoji = true
     Skype = false
     Trello = false
     Mix = false
+  [params.page.library]
+    [params.page.library.css]
+      someCSS = "custom.css"
   # LoveIt CHANGED | 0.2.0 Comment config
   [params.page.comment]
     enable = false
