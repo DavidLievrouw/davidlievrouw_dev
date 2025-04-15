@@ -83,7 +83,7 @@ enableEmoji = true
     # URL of the LOGO
     logo = ""
     # title name
-    name = " David with an ee"
+    name = " davidlievrouw.dev"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = "<i class=\"fas fa-coffee\"></i>"
     # you can add extra information after the name (HTML format is supported), such as icons
