@@ -1,0 +1,20 @@
+services:
+  nginx:
+    image: nginx:1.28.0-alpine
+    container_name: davidlievrouw_dev_nginx
+    hostname: nginx
+    restart: unless-stopped
+    volumes:
+      - /etc/davidlievrouw.dev/web/:/etc/nginx/html/:ro
+      - /etc/davidlievrouw.dev/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/davidlievrouw.dev/nginx/default.conf:/etc/nginx/default.conf:ro
+      - /etc/davidlievrouw.dev/nginx/block-exploits.conf:/etc/nginx/block-exploits.conf:ro
+    ports:
+      - "8080:8080"
+    networks:
+      - davidlievrouw_dev_net
+
+networks:
+  davidlievrouw_dev_net:
+    name: davidlievrouw_dev_net
+    external: true
